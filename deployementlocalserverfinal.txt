@@ -1,0 +1,6 @@
+Deployement Local Host:
+
+1,Live Class : http://localhost:8503/
+2,Recommendation System : http://localhost:8502/
+3,Resume Analyzer : http://localhost:8501/
+4,Personalized Job Recommendations:http://localhost:8504/

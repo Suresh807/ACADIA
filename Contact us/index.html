@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US</title>
+    <link rel="shortcut icon" href="img/lodoADAM.png" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <p style="color: #1abc9c; font-size: 20px;"><img src="img/lodoADAM.png" class="icon" alt=""/>ACADIA - All Domain Comprehensive Academic Development and Intelligent Assistance  </p>
+          <h3 class="title">Let's get in touch</h3>
+          <!-- <p class="text">
+            
+          </p> -->
+          
+          <div class="info">
+            <div class="information">
+              <a href="https://maps.app.goo.gl/Y7x1H2foJT8Pm7M2A "><img src="img/location.png" class="icon" alt="" /></a>
+              <p>1/37,Thalambur Road , Near Navalur Signal,Navalur-600130</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>acadiainfo@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>+91 7338941264/+91 7092909296</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100090085586179&mibextid=ZbWKwL">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/SureshK19872441?t=Fs8-usM6Ek6D2XneAFPsUA&s=09">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/_.suresh20._/?igsh=MWhwOGV0Ym13bmc2dA%3D%3D">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/suresh-kumar-k-398439237">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Creators</p>
+            <h3>Suresh Kumar K & Srihari P</h3>
+            
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form onsubmit="emailSend(); reset(); return false;" autocomplete="off">
+            <h3 class="title"><img src="img/lodoADAM.png" class="icon" alt=""/>Contact us</h3>
+            <div class="input-container">
+              <input type="text" id="username" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" id="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" id="phone" name="phone" maxlength="10" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" id="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+      
+    
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
